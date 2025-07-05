@@ -1,14 +1,17 @@
+import { pluginTypography } from "./src/lib/tailwind";
+import type { ScreensConfig } from "tailwindcss/types/config"
+
 /** @type {import('tailwindcss').Config} */
 export const screens = {
+  xs: "360px",
+  sm: "640px",
   md: "768px",
   lg: "1024px",
-  xl: "1920px",
-};
+  xl: "1280px",
+} as const satisfies ScreensConfig
 
 export default {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens,
     colors: {
@@ -21,5 +24,5 @@ export default {
     },
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [pluginTypography],
+};
