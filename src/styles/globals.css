@@ -4,4 +4,5 @@
 
 html {
     background-color: #D9D9D9;
+    box-sizing: border-box;
 }

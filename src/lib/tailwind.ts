@@ -18,10 +18,10 @@ export const pluginTypography = plugin(({ addComponents }) => {
     ".text-subtitle": {
       "@apply text-[1.25rem] leading-[1.4375rem] font-primary": {},
     },
-    ".text-text-l": {
+    ".text-l": {
       "@apply text-[1rem] leading-[1.1875rem] font-primary": {},
     },
-    ".text-text-m": {
+    ".text-m": {
       "@apply text-[0.875rem] leading-[1.0625rem] font-primary": {},
     },
 
@@ -38,7 +38,7 @@ export const pluginTypography = plugin(({ addComponents }) => {
     ".text-subtitle-mobile": {
       "@apply text-[1.25rem] leading-[1.4375rem] font-primary": {},
     },
-    ".text-text-l-mobile": {
+    ".text-l-mobile": {
       "@apply text-[0.9375rem] leading-[1.25rem] font-primary": {},
     },
   });

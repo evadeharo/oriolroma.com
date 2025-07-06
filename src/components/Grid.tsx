@@ -8,6 +8,6 @@ type Props = {
 
 export default function Grid({ children, className }: Props) {
     return (
-        <div className={cx("grid grid-cols-4 lg:grid-cols-12 gap-4 lg:gap-5 m-5", className)}>{children}</div>
+        <div className={cx("grid grid-cols-4 lg:grid-cols-12 gap-4 lg:gap-5 p-5", className)}>{children}</div>
     )
 }
