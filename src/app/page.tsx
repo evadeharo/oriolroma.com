@@ -5,12 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import image from "../../public/images/home_oriol.jpg"
 
-type Props = {
-  tags?: string[];
-  navigation?: { title: string; href?: string }[];
-};
-
-export default function Home({}: Props) {
+export default function Home() {
   const tags = ["Photo Assistant", "Digital Tech", "Retoucher", "Photographer"];
   const navigation = [
     { title: "Find me", href: "/contact" },
