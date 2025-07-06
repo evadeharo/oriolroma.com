@@ -1,6 +1,6 @@
 import HomeLayout from "@/components/HomeLayout";
 
-export function Home() {
+export default function Page() {
   // TODO: fetch info
   const tags = ["Photo Assistant", "Digital Tech", "Retoucher", "Photographer"];
   const navigation = [
