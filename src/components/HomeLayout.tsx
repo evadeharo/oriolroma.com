@@ -18,7 +18,7 @@ export default function HomeLayout({ tags, navigation }: Props) {
       </div>
 
       <div className="col-span-4 lg:col-span-5 lg:col-start-7 row-start-2 flex flex-col gap-10 h-full">
-        <nav className="flex gap-5 lg:gap-10 font-subtitle uppercase text-l-mobile lg:text-l">
+        <nav className="flex gap-4 lg:gap-10 font-subtitle uppercase text-l-mobile lg:text-l">
           {navigation?.map((navItem, index) => (
             <Link
               key={index}
