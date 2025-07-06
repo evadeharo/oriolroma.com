@@ -12,7 +12,7 @@ type Props = {
 
 export default function HomeLayout({ tags, navigation }: Props) {
   return (
-    <Grid className="h-[95dvh]">
+    <Grid className="min-h-[85dvh] lg:h-[95dvh]">
       <div className="col-span-4 lg:col-span-12 lg:pb-[0.9375rem]">
         <h1 className="text-title-l-mobile lg:text-title-xl">Oriol Roma</h1>
       </div>
@@ -49,7 +49,7 @@ export default function HomeLayout({ tags, navigation }: Props) {
         </p>
       </div>
 
-      <div className="col-span-3 col-start-2 lg:col-span-4 lg:pr-[16%] lg:col-start-1 pt-[10%] lg:pt-0 lg:flex lg:items-end">
+      <div className="col-span-3 col-start-2 lg:col-span-4 lg:pr-[16%] lg:col-start-1 pt-[10%] lg:pt-0 lg:flex lg:items-end pb-5 lg:pb-0">
         <Image
           src={image}
           alt="Oriol Roma home image"
