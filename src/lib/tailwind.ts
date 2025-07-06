@@ -12,6 +12,9 @@ export const pluginTypography = plugin(({ addComponents }) => {
     ".text-title-m": {
       "@apply text-[2.8125rem] leading-[3.125rem] font-primary font-bold": {},
     },
+    ".text-title-s": {
+        "@apply text-[2.5rem] leading-[2.5rem] font-primary font-semibold": {},
+      },
     ".text-subtitle": {
       "@apply text-[1.25rem] leading-[1.4375rem] font-primary": {},
     },
