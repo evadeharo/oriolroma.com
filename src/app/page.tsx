@@ -1,11 +1,6 @@
 import HomeLayout from "@/components/HomeLayout";
 
-type Props = {
-  tags?: string[];
-  navigation?: { title: string; href?: string }[];
-};
-
-export default function Home({}: Props) {
+export function Home() {
   // TODO: fetch info
   const tags = ["Photo Assistant", "Digital Tech", "Retoucher", "Photographer"];
   const navigation = [

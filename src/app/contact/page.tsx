@@ -1,6 +1,6 @@
 import ContactLayout from "@/components/ContactLayout";
 
-export default function Contact() {
+export function Contact() {
   // TODO: fetch info
   const tags = ["Photo Assistant", "Digital Tech", "Retoucher", "Photographer"];
   const navigation = [
@@ -9,7 +9,5 @@ export default function Contact() {
     { title: "Photographer", href: undefined },
   ];
 
-  return (
-    <ContactLayout tags={tags} navigation={navigation} />
-  );
+  return <ContactLayout tags={tags} navigation={navigation} />;
 }
